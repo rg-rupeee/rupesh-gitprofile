@@ -150,6 +150,10 @@ export const getSanitizedConfig = (
       },
       footer: config?.footer,
       enablePWA: config?.enablePWA ?? true,
+      about: {
+        title: config?.about?.title || 'About Me',
+        content: config?.about?.content || [],
+      },
     };
   } catch (error) {
     return {};

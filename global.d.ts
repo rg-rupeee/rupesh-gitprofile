@@ -353,6 +353,11 @@ interface ThemeConfig {
   customTheme?: CustomTheme;
 }
 
+interface AboutConfig {
+  title: string;
+  content?: Array<string>;
+}
+
 interface Config {
   /**
    * GitHub config
@@ -438,6 +443,11 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
+
+  /**
+   * About Section
+   */
+  about?: AboutConfig;
 }
 
 declare const CONFIG: Config;

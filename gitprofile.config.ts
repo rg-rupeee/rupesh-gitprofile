@@ -43,7 +43,8 @@ const CONFIG = {
           title: 'DepXbox',
           description:
             'Depxbox simplifies testing npm packages by handling setup, letting you quick and easy testing.',
-          imageUrl: 'https://plus.unsplash.com/premium_photo-1675544613154-d82fe5bf1373?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          imageUrl:
+            'https://plus.unsplash.com/premium_photo-1675544613154-d82fe5bf1373?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           link: 'https://www.npmjs.com/package/depxbox',
         },
         {
@@ -76,7 +77,7 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'rupeee',
+    medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
@@ -159,8 +160,18 @@ const CONFIG = {
     //   link: 'https://example.com',
     //   description:
     //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // }
+    // },
   ],
+  about: {
+    title: 'About Me',
+    content: [
+      "I'm a passionate Software Developer specializing in JavaScript, TypeScript, Node.js, and Java. I love building scalable backend systems, optimizing performance, and solving complex problems.🧯",
+      'With expertise in microservices, event-driven architecture, caching strategies, and API integrations, I focus on crafting efficient and maintainable full-stack solutions. 📈',
+      'I also have experience with frontend technologies like React.js and Next.js, enabling me to build seamless and dynamic user experiences. 🎨',
+      'Beyond development, I enjoy solving Data Structures and Algorithms (DSA) problems and continuously improving my problem-solving skills. Always eager to learn and innovate, I strive to build tech that makes an impact. 🧑‍💻',
+      'Let’s connect and collaborate to build something amazing! 🚀',
+    ],
+  },
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
@@ -176,7 +187,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

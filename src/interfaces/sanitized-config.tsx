@@ -100,6 +100,11 @@ export interface SanitizedPublication {
   description?: string;
 }
 
+export interface SanitizedAbout {
+  title: string;
+  content: Array<string>;
+}
+
 export interface SanitizedGoogleAnalytics {
   id?: string;
 }
@@ -152,4 +157,5 @@ export interface SanitizedConfig {
   themeConfig: SanitizedThemeConfig;
   footer?: string;
   enablePWA: boolean;
+  about: SanitizedAbout;
 }
