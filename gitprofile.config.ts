@@ -51,7 +51,7 @@ const CONFIG = {
           description:
             'Built a scalable multivendor e-commerce app with 30+ APIs for seamless operations.',
           imageUrl:
-            'https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            'https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           link: 'https://github.com/rg-rupeee/multivendor-ecommerce',
         },
       ],
