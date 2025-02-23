@@ -58,7 +58,11 @@ const AboutCard = ({
                                     key={index}
                                     className="text-base-content text-opacity-60 text-base text-justify mb-3"
                                   >
-                                    {paragraph}
+                                    <div
+                                      dangerouslySetInnerHTML={{
+                                        __html: paragraph,
+                                      }}
+                                    />
                                   </p>
                                 ))}
                             </>

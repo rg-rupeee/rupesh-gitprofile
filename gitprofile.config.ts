@@ -85,6 +85,7 @@ const CONFIG = {
     website: 'http://rupesh.vercel.app',
     phone: '',
     email: 'rupeshgarhwal3920@gmail.com',
+    leetcode: 'rupeshgarhwal3920',
   },
   resume: {
     fileUrl:
@@ -165,11 +166,13 @@ const CONFIG = {
   about: {
     title: 'About Me',
     content: [
-      "I'm a passionate Software Developer specializing in JavaScript, TypeScript, Node.js, and Java. I love building scalable backend systems, optimizing performance, and solving complex problems.🧯",
-      'With expertise in microservices, event-driven architecture, caching strategies, and API integrations, I focus on crafting efficient and maintainable full-stack solutions. 📈',
-      'I also have experience with frontend technologies like React.js and Next.js, enabling me to build seamless and dynamic user experiences. 🎨',
-      'Beyond development, I enjoy solving Data Structures and Algorithms (DSA) problems and continuously improving my problem-solving skills. Always eager to learn and innovate, I strive to build tech that makes an impact. 🧑‍💻',
-      'Let’s connect and collaborate to build something amazing! 🚀',
+      "I'm a passionate <b>Software Developer</b> specializing in building scalable <b>backend systems</b>, optimizing performance, and solving complex problems. I also have experience with <b>frontend technologies</b> like React.js, enabling me to build seamless user experiences. 🚀",
+
+      'With expertise in <b>backend development</b>, <b>microservices</b>, <b>event-driven architecture</b>, <b>containerization technologies</b>, and  <b>cloud platforms</b>, I focus on crafting efficient and maintainable solutions. 📈',
+
+      'Beyond development, I enjoy solving Data Structures and Algorithms (DSA) problems and continuously improving my problem-solving skills. Beyond my technical abilities, I am a collaborative team player and believe in open communication and knowledge sharing. 🫂',
+
+      "Let's connect and collaborate to build something amazing! 🤝",
     ],
   },
   // Display articles from your medium or dev account. (Optional)

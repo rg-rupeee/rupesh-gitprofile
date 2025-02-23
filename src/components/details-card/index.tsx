@@ -8,6 +8,7 @@ import { CgDribbble } from 'react-icons/cg';
 import {
   FaBehanceSquare,
   FaBuilding,
+  FaCentercode,
   FaDev,
   FaFacebook,
   FaGlobe,
@@ -232,6 +233,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="LinkedIn:"
                   value={social.linkedin}
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
+                />
+              )}
+              {social?.leetcode && (
+                <ListItem
+                  icon={<FaCentercode />}
+                  title="Leetcode:"
+                  value={social.leetcode}
+                  link={`https://leetcode.com/u/${social.leetcode}`}
                 />
               )}
               {social?.dribbble && (

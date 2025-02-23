@@ -206,6 +206,11 @@ interface Social {
    * Email
    */
   email?: string;
+
+  /**
+   * Leetcode Profile
+   */
+  leetcode?: string;
 }
 
 interface Resume {
