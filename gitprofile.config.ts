@@ -166,9 +166,9 @@ const CONFIG = {
   about: {
     title: 'About Me',
     content: [
-      "I'm a passionate <b>Software Developer</b> specializing in building scalable <b>backend systems</b>, optimizing performance, and solving complex problems. I also have experience with <b>frontend technologies</b> like React.js, enabling me to build seamless user experiences. 🚀",
+      "I'm a passionate <b>Software Developer</b> specializing in building scalable <b>Backend Systems</b>, optimizing performance, and solving complex problems. I also have experience with <b>Frontend Technologies</b> like React.js, enabling me to build seamless user experiences. 🚀",
 
-      'With expertise in <b>backend development</b>, <b>microservices</b>, <b>event-driven architecture</b>, <b>containerization technologies</b>, and  <b>cloud platforms</b>, I focus on crafting efficient and maintainable solutions. 📈',
+      'With expertise in <b>Backend Development</b>, <b>Microservices</b>, <b>Event-Driven Architecture</b>, <b>Containerization Technologies</b>, and  <b>Cloud Platforms</b>, I focus on crafting efficient and maintainable solutions. 📈',
 
       'Beyond development, I enjoy solving Data Structures and Algorithms (DSA) problems and continuously improving my problem-solving skills. Beyond my technical abilities, I am a collaborative team player and believe in open communication and knowledge sharing. 🫂',
 
